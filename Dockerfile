@@ -9,7 +9,7 @@ RUN conda install scikit-learn
 # Ruby
 
 RUN apt-get update
-RUN apt-get -y install build-essential libssl-dev zlib1g-dev
+RUN apt-get -y install build-essential libssl-dev zlib1g-dev libreadline-dev
 
 RUN wget https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.3.tar.gz
 RUN tar xf ruby-2.5.3.tar.gz
